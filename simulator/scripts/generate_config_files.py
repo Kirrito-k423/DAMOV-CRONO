@@ -2,9 +2,9 @@ import sys
 import os
 import errno
 
-os.chdir("../workloads")
+os.chdir("/staff/shaojiemike/github/CRONO/apps")
 PIM_ROOT = os.getcwd() +"/"
-os.chdir("../simulator") 
+os.chdir("/staff/shaojiemike/github/DAMOV/simulator") 
 ROOT = os.getcwd() +"/"
 
 def mkdir_p(directory):
